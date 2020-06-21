@@ -1,0 +1,7 @@
+[package]
+name = "leonard-os"
+version = "0.0.0"
+authors = ["Gabriel Conrado <gabaconrado@gmail.com>", "Pedro <pedrosmv@gmail.com"]
+edition = "2018"
+
+[dependencies]
