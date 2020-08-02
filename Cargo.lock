@@ -5,31 +5,13 @@ name = "bootloader"
 version = "0.9.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0ad686b9b47363de7d36c05fb6885f17d08d0f2d15b1bc782a101fe3c94a2c7c"
-<<<<<<< Updated upstream
-=======
-
-[[package]]
-name = "lazy_static"
-version = "1.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
-dependencies = [
- "spin",
-]
->>>>>>> Stashed changes
 
 [[package]]
 name = "leonard-os"
 version = "0.0.0"
 dependencies = [
  "bootloader",
-<<<<<<< Updated upstream
  "rlibc",
-=======
- "lazy_static",
- "rlibc",
- "spin",
->>>>>>> Stashed changes
  "volatile",
 ]
 
@@ -40,15 +22,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fc874b127765f014d792f16763a81245ab80500e2ad921ed4ee9e82481ee08fe"
 
 [[package]]
-<<<<<<< Updated upstream
-=======
-name = "spin"
-version = "0.5.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6e63cff320ae2c57904679ba7cb63280a3dc4613885beafb148ee7bf9aa9042d"
-
-[[package]]
->>>>>>> Stashed changes
 name = "volatile"
 version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
