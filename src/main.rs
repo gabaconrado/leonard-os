@@ -2,7 +2,6 @@
 #![no_main] // disable all Rust-level entry points
 extern crate rlibc;
 
-extern crate rlibc;
 use core::panic::PanicInfo;
 
 mod vga_buffer;
